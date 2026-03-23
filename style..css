@@ -57,7 +57,7 @@ html::-webkit-scrollbar-thumb{
 
 }
 .header .navbar a {
-    font-size: 5.5rem;
+    font-size: 4rem;
     margin-left: 2rem;
     color: #333;
     font-weight: 500;
@@ -74,8 +74,8 @@ section{
      color: darkblue ;
       text-transform: uppercase; 
     margin-bottom: 4rem; 
-    margin-top: 3rem; 
-    font-size: 5rem; 
+    margin-top: 2rem; 
+    font-size: 4rem; 
 } 
  
 .btn{ 
@@ -171,12 +171,12 @@ flex: 1 1 45rem;
     object-fit: cover;
 }
 .about .content .h2{ 
-    font-size: 20rem; 
+    font-size: 4rem; 
     color: black; 
     text-transform: uppercase; 
 } 
 .about .row .content p{ 
-    font-size: 8.5rem;
+    font-size: 3rem;
     color: blue; 
     padding: 2rem 0; 
     line-height: 3; 
