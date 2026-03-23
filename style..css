@@ -1,0 +1,531 @@
+*{ 
+    font-family: 'poppins',sans-serif; 
+    margin: 0; 
+    padding: 0; 
+  box-sizing: border-box; 
+    outline: none; 
+    border: none; 
+    text-decoration: none; 
+    text-transform: capitalize; 
+    transition: 0.5s linear; 
+} 
+html{ 
+    font-size: 70.5%; 
+    overflow-x: hidden; 
+    scroll-behavior: smooth; 
+    scroll-padding-top : 6rem; 
+ 
+} 
+html::-webkit-scrollbar{ 
+    width: 1rem; 
+ 
+} 
+html::-webkit-scrollbar-track{ 
+    background-color: white; 
+} 
+html::-webkit-scrollbar-thumb{ 
+    background-color: gray; 
+} 
+.header {
+    background-color: #4e9dec; /* Change this to your preferred color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 9%;
+    position: sticky;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.header.logo{
+    display:flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header .logo img {
+    height: 6rem;
+}
+
+.header.logo span{
+    font-size: 2.5rem;
+    color: rgb(223, 68, 12);
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.header .navbar a {
+    font-size: 5.5rem;
+    margin-left: 2rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.header .navbar a:hover {
+    color: #00008b;
+}
+section{ 
+    padding: 3rem 9%; 
+} 
+.heading{ 
+    text-align: center; 
+     color: darkblue ;
+      text-transform: uppercase; 
+    margin-bottom: 4rem; 
+    margin-top: 3rem; 
+    font-size: 5rem; 
+} 
+ 
+.btn{ 
+    display: inline-block; 
+    margin-top: 1rem; 
+    padding: 1rem 3rem; 
+    border: 0.1rem solid darkblue; 
+    border-radius: 0.5rem; 
+    cursor: pointer; 
+    font-size: 5rem; 
+    color: darkblue; 
+} 
+.btn:hover{ 
+    background-color: white; 
+    color: darkblue; 
+} 
+.header{ 
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    left: 0; 
+    z-index: 1000; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 3rem 9%; 
+    background-color: rgb (182, 225, 243); 
+    box-shadow: 0 0.5rem 1rem rgba (0, 0, 0, 0.1); 
+} 
+.header .logo{ 
+    font-size: 3rem; 
+    font-weight: bolder; 
+    color: darkblue ; 
+} 
+.header .navbar a{ 
+    font-size: 3rem; 
+    margin-left: 3rem; 
+    color: black; 
+ 
+} 
+.header .navbar a:hover{ 
+    color: darkblue; 
+} 
+#menu { 
+    font-size: 4rem; 
+    cursor: pointer; 
+    color: burlywood; 
+    display: none; 
+} 
+.home { 
+ 
+    min-height: 100vh;
+        display: flex;
+           align-items: center; 
+    justify-content: center; 
+    background-image: url(nutritrack\ logo.jpeg); 
+    width:100%; 
+    height: 800px; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+     
+} 
+.home .content{ 
+    max-width: 60rem; 
+    text-align: justify; 
+} 
+.home .content h2{ 
+    font-size: 10rem; 
+    text-transform: uppercase; 
+    color: rgb(22, 21, 21); 
+    padding-bottom: 2rem; 
+} 
+.about {
+    background-color: rgb(242, 245, 247);
+}
+.about .row{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 2rem; 
+ 
+} 
+.about .row .content{ 
+flex: 1 1 45rem; 
+ 
+} 
+.about.row.image img{
+    width:100%;
+    object-fit: cover;
+}
+.about .content .h2{ 
+    font-size: 20rem; 
+    color: black; 
+    text-transform: uppercase; 
+} 
+.about .row .content p{ 
+    font-size: 8.5rem;
+    color: blue; 
+    padding: 2rem 0; 
+    line-height: 3; 
+} 
+.about .row .image { 
+    flex: 1 1 20rem; 
+} 
+.about .row .image img{ 
+    width: 50%; 
+     
+} 
+.services{ 
+    background-color: rgb(242, 245, 247); 
+} 
+.services .box-container{ 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); 
+    gap: 2rem; 
+    margin-top: 8rem;
+    } 
+.services .box-container .box{ 
+    text-align: center; 
+    padding: 5rem; 
+    background-color: beige; 
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); 
+    border-radius: 5rem; 
+    margin-bottom: 8rem; 
+} 
+.services .box-container .box:hover, 
+.services .box-container .box .icon:hover{ 
+    background: lightblue; 
+} 
+ 
+.services .box-container .box .icon{ 
+    width: 15rem; 
+    height: 15rem; 
+    line-height: 13rem; 
+    background: white; 
+    border-radius: 50%; 
+    margin: -11rem auto 2rem; 
+    border: 1.8rem solid black; 
+ 
+} 
+.services .box-container .box .icon img{ 
+    width:5rem; 
+    margin-top: 4rem; 
+} 
+.services .box-container .box .content h3{ 
+     font-size: 7rem; 
+    padding: 1rem 0; 
+    color: darkblue; 
+} 
+.services .box-container.box .content .line{ 
+    background: darkblue; 
+    width: 30%; 
+    height: 4rem; 
+    margin: 2rem auto; 
+    border-radius: 5rem; 
+} 
+.services.box-container .box .content p{ 
+    font-size: 3.4rem; 
+    color: black; 
+    line-height: 2; 
+} 
+.services .box-container .box .content ul{ 
+    margin: 2rem 0; 
+    list-style: none; 
+} 
+.services .box-container .box .content ul li{ 
+    padding: .5rem; 
+    font-size: 3.4rem; 
+    color: black; 
+} 
+.services .box-container .box .content ul li i{ 
+    font-size: 4rem; 
+    columns: white; 
+    padding: .5rem;
+    margin-right: 1rem; 
+    background: darkblue; 
+    border-radius: 50%; 
+} 
+.diet .controls{ 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); 
+    gap: 1.5rem; 
+    list-style: none; 
+} 
+ 
+.diet .controls .buttons{ 
+    padding: 3rem 2rem; 
+    background: beige; 
+    cursor: pointer; 
+    margin-bottom: 3rem; 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    border-radius: 1rem; 
+} 
+ 
+.diet .controls .buttons img{ 
+    height: 7rem; 
+} 
+ 
+.diet .controls .buttons h3{ 
+    font-size: 4rem; 
+    padding-top: 1rem; 
+    color: black; 
+} 
+ 
+.diet .controls .buttons.active{ 
+    background: beige; 
+} 
+ 
+.diet .image-container{ 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); 
+    gap: 1.5rem; 
+} 
+ 
+.diet .image-container .box{ 
+    background: beige; 
+    border-radius: 1rem; 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+} 
+.diet .image-container .box:hover .image img{ 
+    transform: scale(1.1); 
+} 
+ 
+.diet .image-container .box .image{ 
+    height: 30rem; 
+    overflow: hidden; 
+    width: 100%; 
+} 
+ 
+.diet .image-container .box .image img{ 
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+} 
+ 
+.diet .image-container .box .content{ 
+    padding: 3rem; 
+} 
+ 
+.diet .image-container .box .content .link{ 
+    font-size: 3rem; 
+    color: black; 
+} 
+ 
+.diet .image-container .box .content p{ 
+    padding: 1rem 0; 
+    font-size: 4rem; 
+    color: black; 
+    line-height: 2; 
+} 
+.diet .image-container .box .content .icon{ 
+    padding-top: 1rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.diet .image-container .box .content .icon a{ 
+    font-size: 4rem; 
+    color: black;
+    } 
+.diet .image-container .box .content .icon a:hover{ 
+    color: darkblue; 
+} 
+.diet .image-container .box .content .icon a i{ 
+    padding-right: 0.5rem; 
+    color: darkblue; 
+}
+.tracker{
+margin-top:30px;
+text-align:center;
+}
+
+.input-box input .input-box select{
+padding: 15px;
+margin: 10px;
+}
+
+button{
+background:#28a745;
+color:white;
+border:none;
+padding:10px 15px;
+cursor:pointer;
+}
+
+button:hover{
+background:#218838;
+}
+
+#log{
+margin-top:20px;
+}
+
+.card{
+background:white;
+padding:10px;
+margin:10px auto;
+width:300px;
+border-radius:10px;
+box-shadow:0 0 8px gray;
+}
+
+.summary{
+background:#fff;
+padding:15px;
+width:300px;
+margin:auto;
+border-radius:10px;
+box-shadow:0 0 8px gray;
+}
+.tracker-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    font-size: 50px;
+}
+.reviews .slide p{ 
+    padding: 2rem; 
+    font-size: 2rem; 
+    font-style: italic; 
+    background: lightblue; 
+    border-radius: 0.5rem; 
+    color: black; 
+    line-height: 2; 
+    position: relative; 
+    z-index: 0; 
+    margin-bottom: 3rem; 
+}
+
+.reviews .slide p{ 
+    padding: 2rem; 
+    font-size: 1.5rem; 
+    font-style: italic; 
+    background: lightblue; 
+    border-radius: 0.5rem; 
+    color: black; 
+    line-height: 2; 
+    position: relative; 
+    z-index: 0; 
+    margin-bottom: 3rem; 
+} 
+.reviews .slide p::before{ 
+    position: absolute; 
+    bottom: -1.5rem; 
+    left: 0.7rem; 
+    height: 3rem; 
+    width: 3rem; 
+    background: lightblue;
+      transform: rotate(45deg); 
+} 
+.reviews .slide .user{ 
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+} 
+.reviews .slide .user img{ 
+    height: 7rem; 
+    width: 7rem; 
+    border-radius: 50%; 
+} 
+.reviews .slide .user h3{ 
+    font-size: 2rem; 
+    color: black; 
+} 
+.reviews .slide .user span{ 
+    color: darkblue; 
+    font-size: 2; 
+ 
+}
+.newsletter{ 
+    background-image: url(background.jpeg); 
+    width:100%; 
+    height: 500px; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    } 
+.newsletter .content{ 
+    max-width: 70rem; 
+    margin: 1rem auto; 
+    text-align: center; 
+} 
+.newsletter .content p{ 
+    font-size: 2rem; 
+    line-height: 2; 
+    color: black; 
+} 
+.newsletter .content form{ 
+    margin-top: 2rem; 
+    background: white; 
+    border-radius: 0.5rem; 
+    border: 0.2rem solid darkblue; 
+    padding: 0.8rem; 
+    display: flex; 
+} 
+.newsletter .content form .email{ 
+    width: 100%; 
+    font-size: 2.6rem; 
+    color: darkblue; 
+    padding:  1.3rem; 
+    text-transform: capitalize; 
+} 
+.newsletter .content form .btn{ 
+    margin-top: 0; 
+    background: none; 
+} 
+.newsletter .content form .btn:hover{ 
+    background: darkblue; 
+    color: white; 
+} 
+.footer .box-container{ 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); 
+    gap: 1.5rem; 
+} 
+.footer .box-container .box h3{ 
+    font-size: 2rem; 
+    padding: 1.5rem 0; 
+    color: darkblue; 
+} 
+.footer .box-container .box a{ 
+    display: block; 
+    font-size: 2rem; 
+    stop-color: black; 
+    padding: 1rem 0; 
+} 
+.footer .box-container .box a i{ 
+    color: darkblue; 
+    padding-right: 0.5rem; 
+ 
+} 
+.footer .box-container .box a:hover i{ 
+    padding-right: 5rem;
+    } 
+.footer .credit{ 
+    text-align: center; 
+    margin-top: 2rem; 
+    padding: 1rem; 
+    padding-top: 2.9rem; 
+    font-size: 7rem; 
+    color: black; 
+} 
+.footer .credit .span{ 
+    color: darkblue; 
+}

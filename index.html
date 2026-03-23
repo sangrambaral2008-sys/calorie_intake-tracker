@@ -1,0 +1,434 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title> Diet Website </title> 
+<!--font awesome cdn link--> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font
+awesome/6.7.2/css/all.min.css" integrity="sha512
+Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6sw
+U2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+<!--swipercdn link--> 
+<link 
+  rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> 
+  <!--custom css link--> 
+<link rel="stylesheet" href="style..css"> 
+</head> 
+<script src="script.js"></script>
+<body>  
+<!--header section start--> 
+<header class="header"> 
+<a href="#" class="logo">
+    <img src="logo.png" alt="logo">
+    <span>NUTRITRACK</span>
+</a>  
+<nav class="navbar"> 
+    <a href="index.html"> Home </a> 
+    <a href="index.html"> About Us </a> 
+    <a href="index.html"> Services </a> 
+    <a href="index.html"> Review </a> 
+    <a href="index.html#contact"> Contact Us</a> 
+    <a href="index.html"> Survey </a> 
+</nav> 
+<div class="fas fa-bars" id="menu"></div> 
+</header> 
+<!--header section end--> 
+<!--home section start--> 
+<section class="home" id="home"> 
+    <div class="content"> 
+ </div> 
+</section> 
+<!--home section end-->
+<!-- about section start --> 
+<section class="about" id="about"> 
+    <h1 class="heading"> About Us </h1> 
+    <div class="row"> 
+        <div class="content"> 
+            <h1 class="title"> Smart Food Recognition <br> & <br> Personalised Diet</h1> 
+            <p> Track and analyse your diet with ease. <br>Estimate calorie intake accurately and 
+make healthier choices effortlessly. <br>Our system predicts food items and calculate calorie 
+content, helping you manage your diet and reach wellness goals.<br>Stay on track with 
+detailed insights into your daily nutritional intake.   
+            </p> 
+     </div>  
+        <div class="image"> 
+            <img src="about.jpeg" alt=""> 
+
+        </div> 
+    </div> 
+</section> 
+ <!-- about section end --> 
+ <!-- service section start --> 
+<section class="services" id="services"> 
+    <h1 class="heading"> Service </h1> 
+    <div class="box-container"> 
+        <div class="box"> 
+            <div class="icon"> 
+                <img src="diet plan.png"> 
+ </div> 
+            <div class="content"> 
+                <h3> Arranging A Nutrition Plan </h3> 
+                <div class="line"></div> 
+                <ul> 
+                    <li>Hydration </li> 
+                    <li>Balanced Breakfast </li> 
+                    <li>Fruit and Vegetables Intake</li> 
+                    <li> Healthy Snacking </li> 
+             </ul> 
+            </div> 
+ 
+        <div class="box"> 
+            <div class="icon"> 
+                <img src="implement.png"> 
+ </div> 
+            <div class="content"> 
+                <h3> Implementation Of The Plan </h3> 
+                <div class="line"></div> 
+                <ul> 
+                    <li>Create a Grocery List </li> 
+                    <li>Meal Preparation And Planning</li> 
+                    <li>Track Your Progress</li> 
+                    <li> Eat Mindfully </li> 
+ 
+                </ul> 
+            </div> 
+ </div> 
+        <div class="box"> 
+            <div class="icon"> 
+                <img src="weight loss.png"> 
+</div> 
+            <div class="content"> 
+                <h3> Comprehensive Measurement Of The Nutrition Plan </h3> 
+                <div class="line"></div> 
+                <ul> 
+                    <li>Weight and Body Mass </li> 
+                    <li>Body Measurements</li>
+                 <li>Energy Level and Physical Performance</li> 
+                    <li>Food Diary and Habits Assessment </li> 
+ </ul> 
+            </div> 
+ </div> 
+    </div> 
+</section> 
+<! -- service section end -->
+ <!--diet section start--> 
+<section class="diet" id="diet"> 
+<h1 class="heading">diet plan</h1> 
+<ul class="controls"> 
+       <li class="buttons active" data-filter="alt">  
+           <img src="all.png" alt="all"> 
+           <h3>all</h3> 
+       </li> 
+       <li class="buttons" data-filter="breakfast"> 
+<img src="breakfast.png" alt="brk fast"> 
+           <h3>breakfast</h3> 
+       </li> 
+       <li class="buttons" data-filter="lunch"> 
+           <img src="lunch.jpeg" alt="lunch"> 
+           <h3>lunch</h3> 
+       </li> 
+       <li class="buttons" data-filter="dinner"> 
+           <img src="dinner.png" alt="dinner"> 
+           <h3>dinner</h3> 
+       </li> 
+    </ul> 
+<div class="image-container"> 
+<div class="box lunch"> 
+           <div class="image"> 
+               <img src="sandwich.jpeg" alt=""> 
+           </div> 
+           <div class="content"> 
+               <a href="#" class="link">Brown Bread Sandwich</a> 
+               <p>It consists of 2 slices of brown bread(140kcal), sliced paneer pieces(100kcal), 
+sliced tomatoes(4kcal), lettuce(4kcal), green-chutney(30kcal), coriander leaves(3kcal). </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2026</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+<div class="box breakfast"> 
+           <div class="image">
+             <img src="nourish bowl.jpeg" alt=""> 
+           </div> 
+           <div class="content"> 
+               <a href="#" class="link">Nourish Bowl </a> 
+               <p>It consists of half a piece of Avocado(120kcal), Cherry tomatoes (10kcal), 
+cucumber(15kcal), mushrooms(11kcal), brown-rice(110kcal), broccoli(25kcal), 
+spinach(7kcal), carrot(12kcal), red-cabbage(14kcal). </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2026</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+<div class="box breakfast"> 
+           <div class="image"> 
+               <img src="paneer.jpeg" alt=""> 
+           </div> 
+           <div class="content"> 
+               <a href="#" class="link">Paneer Cubes with plenty of Veggies</a> 
+               <p>It Consists of cubes of paneer(256kcal), Bell Peppers(20kcal), Onions(12kcal), 
+Yoghurt(18kcal). </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2026</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+  <div class="box breakfast"> 
+           <div class="image"> 
+               <img src="fruit bowl.jpeg" alt="">
+                </div> 
+           <div class="content"> 
+               <a href="#" class="link">Fruit Bowl </a> 
+               <p>It Consists of Blue Berries(29kcal), Raspberries(25kcal), Mango(60kcal). </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2026</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+  <div class="box lunch"> 
+           <div class="image"> 
+               <img src="chicken.jpeg" alt=""> 
+           </div> 
+           <div class="content"> 
+               <a href="#" class="link">Grilled Chicken And Eggs Platter</a> 
+               <p>It Consists of grilled chicken(350kcal), boiled Egg(156kcal), Avocado(112kcal), 
+cucumber(15kcal), corn(96kcal), Olive Oil(120kcal). </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2026</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+<div class="box dinner"> 
+           <div class="image"> 
+               <img src="oats meal.jpeg" alt=""> 
+           </div> 
+           <div class="content">
+             <a href="#" class="link">Oats-Meal</a> 
+               <p> It Consists of a bowl of oats rinsed in milk(250kcal), banana(105kcal), 
+                honey(64kcal). </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2024</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+ <div class="box dinner"> 
+           <div class="image"> 
+               <img src="boiled egg.jpeg" alt=""> 
+           </div> 
+           <div class="content"> 
+               <a href="#" class="link">Boiled-Egg</a> 
+               <p>It Consists of sliced Boiled-Eggs(78kcal) </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2026</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+ <div class="box dinner"> 
+           <div class="image"> 
+               <img src="chicken.jpeg" alt=""> 
+           </div> 
+           <div class="content"> 
+               <a href="#" class="link">Chicken Salad </a>
+                <p>It Consists of Sorted Grilled chicken(165kcal), Avocado(112kcal), 
+Lettuce(8kcal), Tomatoes(18kcal), Coriander(3kcal). </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2026</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+  <div class="box dinner"> 
+           <div class="image"> 
+               <img src="fish.jpeg" alt=""> 
+           </div> 
+           <div class="content"> 
+               <a href="#" class="link">Grilled Salmon Fish</a> 
+               <p>It Consists of Salmon Fish(300kcal), Onions(40kcal), Coriander(2kcal), 
+Chillies(6kcal). </p> 
+               <div class="icon"> 
+                   <a href="#"><i class="fas fa-clock"></i> 14 jan,2026</a> 
+                   <a href="#"><i class="fas fa-user"></i>by admin</a> 
+               </div> 
+           </div> 
+       </div> 
+</div> 
+</section> 
+<!--diet section end-->
+<!--tracker section start-->
+<div class="tracker-container">
+    <div class="food-tracker">
+<h2>🍽 Food Tracker</h2>
+
+<select id="meal">
+<option>Breakfast</option>
+<option>Lunch</option>
+<option>Dinner</option>
+<option>Snacks</option>
+</select>
+
+<input type="text" id="food" placeholder="Food name">
+
+<input type="number" id="qty" placeholder="Quantity (g)">
+
+<button onclick="addFood()">Add</button>
+
+<h3>Log</h3>
+<div id="log"></div>
+
+<h3>Total Calories: <span id="total">0</span></h3>
+    </div>
+</div>
+
+<!--tracker section end--> 
+<!--Review section starts --> 
+<section class="reviews" id="reviews"> 
+    <h1 class="heading">Client's Review</h1> 
+    <div class="swiper review-slider"> 
+        <div class="swiper-wrapper"> 
+            <div class="swiper-slide slide"> 
+                <p> This website helped me stay on top of my daily calorie goals. Very user
+friendly. </p> 
+                <div class="user"> 
+                    <img src="adyansh.jpeg" alt=""> 
+                    <div class="info"> 
+                        <h3> adyansh Verma </h3> 
+                        <span> Client </span> 
+                    </div>  
+                </div> 
+            </div> 
+            <div class="swiper-slide slide">
+                <p>Great website for tracking meals and maintaining a balanced diet. Highly 
+recommended! </p> 
+                <div class="user"> 
+                    <img src="rahul.jpeg" alt=""> 
+                    <div class="info"> 
+                        <h3> rahul Sharma </h3> 
+                        <span> Client </span> 
+                    </div>  
+                </div> 
+            </div><div class="swiper-slide slide"> 
+                <p> Simple effective, and accurate! A must-have for fitness enthusiasts. </p> 
+                <div class="user"> 
+                    <img src="manishaaa.jpeg" alt=""> 
+                    <div class="info"> 
+                        <h3> manishaaa Mehra </h3> 
+                        <span> Client </span> 
+                    </div>  
+                </div> 
+            </div> 
+            <div class="swiper-slide slide"> 
+                <p> I love how easy it is to log my food intake. It has helped me lose weight.  </p> 
+                <div class="user"> 
+                    <img src="srutiiiii.jpeg" alt=""> 
+                    <div class="info"> 
+                        <h3> srutiiiii Kapoor </h3> 
+                        <span> Client </span> 
+                    </div>  
+                </div> 
+            </div>
+             <div class="swiper-slide slide"> 
+                <p> The best calorie website I've used so far. Keeps me accountable every day. 
+</p> 
+                <div class="user"> 
+                    <img src="manishaaa.jpeg" alt=""> 
+                    <div class="info"> 
+                        <h3> manishaaa Reddy </h3> 
+                        <span> Client </span> 
+                    </div>  
+                </div> 
+            </div> 
+            <div class="swiper-slide slide"> 
+                <p> This calorie website has been a game-changer for my fitness journey. It keeps 
+me motivated. </p> 
+                <div class="user"> 
+                    <img src="rahul.jpeg" alt=""> 
+                    <div class="info"> 
+                        <h3> rahul Iyer </h3> 
+                        <span> Client </span> 
+                    </div>  
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    </section> 
+<!--Review section ends--> 
+<!--Newsletter section starts--> 
+<section class="newsletter"> 
+    <div class="content"> 
+        <h1 class="heading">Subscribe Now</h1> 
+        <p> Stay on top of your health and fitness goals with our exclusive updates! Subscribe 
+now to receive expert nutrition tips, healthy recipes, and the latest features of our Calorie 
+Intake Tracker. Join with us today-your healthier lifestyle starts here! </p> 
+        <form action=""> 
+            <input type="email" placeholder="enter your email" class="email"> 
+            <input type="submit" value="Subscribe" class="btn"> 
+ </form> 
+    </div> 
+</section> 
+<!--Newsletter section ends--> 
+<!--Survey section starts--> 
+<section class="survey" id="survey"> 
+<div class="content"> 
+<h1 class="heading">Survey</h1> 
+<p>Please fill out the survey using the given link</p> 
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfmzn6XbKLt6g1MLXYbz8Eihm7iNoe3UeqhzrxiepbGv5VFeQ/viewform?usp=header" target="_blank"> Click on it.. </a> 
+</div> 
+</section> 
+<!--Survey section ends--> 
+ 
+<!--footer section starts--> 
+<section class="footer"> 
+    <div class="box-container"> 
+        <div class="box"> 
+            <h3> Quick Links </h3> 
+            <a href="#home"><i class="fas fa-arrow-right"></i>home</a> 
+            <a href="#about"><i class="fas fa-arrow-right"></i>about </a> 
+            <a href="#services"><i class="fas fa-arrow-right"></i>services</a> 
+            <a href="#reviews"><i class="fas fa-arrow-right"></i>reviews</a> 
+            <a href="#contact"><i class="fas fa-arrow-right"></i>contact</a> 
+        </div> 
+ <div class="box"> 
+            <h3> Extra Links </h3> 
+            <a href="#"><i class="fas fa-arrow-right"></i>my account</a> 
+            <a href="#"><i class="fas fa-arrow-right"></i>my order</a> 
+            <a href="#"><i class="fas fa-arrow-right"></i>my Wishlist</a> 
+            <a href="#"><i class="fas fa-arrow-right"></i>term of use</a> 
+            <a href="#"><i class="fas fa-arrow-right"></i>privacy policy </a> 
+   </div> 
+        <div class="box"> 
+            <h3> Contact Info </h3>
+              <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a> 
+            <a href="#"><i class="fas fa-phone"></i>+123-789-4560</a> 
+            <a href="#"><i class="fas fa-envelope"></i>abcxyz09@gmail.com</a> 
+            <a href="#"><i class="fas fa-map"></i>Bhubaneswar, India </a> 
+        </div> 
+<div class="box"> 
+    <h3> Follow Us </h3> 
+    <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a> 
+    <a href="#"><i class="fab fa-twitter"></i>Twitter</a> 
+    <a href="#"><i class="fab fa-instagram"></i>Instagram</a> 
+    <a href="#"><i class="fab fa-linkedin"></i> LinkedIn </a> 
+</div> 
+</div> 
+<div class="credit"> Created By <span> Aniska Das</span> | all rights are reserved! 
+</div> 
+</section> 
+<! --footer section ends-->
+<! --jquery cdn link --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+integrity="sha512
+v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e
+6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<!--swiper cdn link --> 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+<!--custom js link --> 
+<script src="script.js"></script> 
+</body> 
+</html>
